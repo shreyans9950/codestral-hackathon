@@ -1,0 +1,50 @@
+;;;;
+; npm userconfig file: /Users/hardik.parikh/.npmrc
+; this is a simple ini-formatted file
+; lines that start with semi-colons are comments
+; run `npm help 7 config` for documentation of the various options
+;
+; Configs like `@scope:registry` map a scope to a given registry url.
+;
+; Configs like `//<hostname>/:_authToken` are auth that is restricted
+; to the registry host specified.
+
+//partners.artifactory.comcast.com/artifactory/api/npm/:_authToken=eyJ2ZXIiOiIyIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYiLCJraWQiOiJSbHlSanY5UTVQeVRUWmFFZldmU1BTNVkzclI0Qkg3dmN4SHIxY01ZNG9nIn0.eyJzdWIiOiJqZnJ0QDAxZHA0MnM0NHJxN3k5MGJwODk0ZDcxYmVzL3VzZXJzL2hwYXJpazAyOCIsInNjcCI6ImFwcGxpZWQtcGVybWlzc2lvbnMvdXNlciIsImF1ZCI6ImpmcnRAMDFkcDQyczQ0cnE3eTkwYnA4OTRkNzFiZXMiLCJpc3MiOiJqZnJ0QDAxZHA0MnM0NHJxN3k5MGJwODk0ZDcxYmVzL3VzZXJzL19zeXN0ZW1fIiwiZXhwIjoxNzE2MTE0OTU0LCJpYXQiOjE3MTM1MjI5NTQsImp0aSI6ImUyYjUxYzNiLTAxNjUtNDQxMy1iYTQzLTJkMTVlOWQzNThkYyJ9.Zs0k6MZOUNIGP-JyZU-K6iAZcKwX3P3TXzvL20PuMWv4ixUK9ST9OwMqEuFzkbzdR1S6VVTMdPU5nTjb4NealzC8PjEHGZmAzgcRNWh8QOv73S4NsOK8JNepmcZgNoLZDB0_5MUd2gX9nvtIiXcKFe_SD91Vy076h8MuAbdRlUhXk819pRF-I1YdrZflQbCGaaf4II_-hiUYZfWxdMhRvwPn-GLQXsqBCKfZEfSBDypIJYWNvHDvzpH3dMosIRZ-vktcptq-cjd8_e4TUvgRb1O_SOITT1xUAFrlqUcaj65v7Rpo9mHpuAcZqM7uSkJMd3xhJsmM4CockG7dR3bhOg
+registry=https://partners.artifactory.comcast.com/artifactory/api/npm/databee-npm
+
+;;;;
+; all available options shown below with default values
+;;;;
+
+
+; _auth=null
+; access=null
+; all=false
+; allow-same-version=false
+; also=null
+; audit=true
+; audit-level=null
+; auth-type=web
+; before=null
+; bin-links=true
+; browser=null
+; ca=null
+; cache=~/.npm
+; cache-max=null
+; cache-min=0
+; cafile=null
+; call=
+; cert=null
+; cidr=null
+; color=true
+; commit-hooks=true
+; cpu=null
+; os=null
+; libc=null
+; depth=null
+; description=true
+; dev=false
+;
+; diff-ignore-all-space=false
+; diff-name-only=false
+
