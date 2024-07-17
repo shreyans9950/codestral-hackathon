@@ -1,5 +1,6 @@
 fastapi
 mysql
+pymysql
 mysqlx-connector-python
 pydantic
 langchain
