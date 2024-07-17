@@ -1,5 +1,6 @@
 fastapi
 mysql
+mysql-python3
 pymysql
 mysqlx-connector-python
 pydantic
