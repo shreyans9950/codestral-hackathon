@@ -2,7 +2,6 @@ from typing import Any
 from fastapi import FastAPI
 from fastapi import HTTPException
 from pydantic import BaseModel
-# import tensorflow as tf
 from langchain.chains import create_sql_query_chain
 from langchain_community.utilities import SQLDatabase
 from fastapi.middleware.cors import CORSMiddleware
@@ -35,14 +34,6 @@ class TextInput(BaseModel):
 
 class DBConnectionDetails(BaseModel):
     database_url: str
-
-# @app.get("/")
-# def status_gpu_check() -> dict[str, str]:
-#     gpu_msg = "Available" if tf.test.is_gpu_available() else "Unavailable"
-#     return {
-#         "status": "I am ALIVE!",
-#         "gpu": gpu_msg
-#     }
 
 @app.post("/database-connection/")
 async def database_connection(data: DBConnectionDetails) -> dict[str, str]:
