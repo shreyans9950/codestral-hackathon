@@ -51,10 +51,7 @@ async def nlp_to_sql(data: TextInput) -> dict[str, str]:
         chain = create_sql_query_chain(llm, db)
         prompt = {"question": f"Give only SQL query for this question as formate 'SQLQuery : qurey': {data.inputs}"}
         response = chain.invoke(prompt)
-        start = 0
-        end = response.find(';') + len(';')
-        sql_query = response[start:end]
-        return {"generated_text": sql_query}
+        return {"generated_text": response}
     except Exception as e:
         print(e)
         raise HTTPException(status_code=500, detail=len(str(e)))
